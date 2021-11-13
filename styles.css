@@ -1,0 +1,60 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    font-size: 1.25rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    background-color: #006b87;
+    border-bottom: #8e8e8e 2px solid;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar .logo {
+    font-size: 1.75rem;
+    padding: 5px 3.5%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 7.5%;
+}
+
+.navbar .other {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+
+.heading {
+    background-image: url("heading-background-image.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.heading .middle-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heading-text {
+    font-size: 3.5rem;
+    color: white;
+}
+
